@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Form</title>
+    <style>
+      .avatar {
+        vertical-align: middle;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+      .container{
+        display: flex;
+        height: 90vh;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10vh !important;
+      }
+
+      .row{
+        min-height: 150px;
+      }
+    </style>
+</head>
+<body style="padding: 4vh;">
+  <div class="container shadow-lg">
+    <h2>
+      Formulario
+    </h2>
+      <form method="POST" action="/crear">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Código</label>
+          <input type="text" class="form-control" name="codigo"  placeholder="Ingrese código">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Tipo</label>
+          <input type="text" class="form-control" name="tipo"  placeholder="Ingrese tipo de producto">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Nombre</label>
+          <input type="text" class="form-control" name="nombre"  placeholder="Ingrese nombre del producto">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Pasillo</label>
+          <input type="text" class="form-control" name="pasillo"  placeholder="Ingrese número del pasillo">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Foto</label>
+          <input type="file" class="form-control" name="thumbnail"  placeholder="Imagen del producto">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+</body>
+</html>

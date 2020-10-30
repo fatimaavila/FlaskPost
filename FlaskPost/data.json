@@ -1,0 +1,45 @@
+{
+    "headers": {
+        "0":"Código",
+        "1":"Tipo",
+        "2":"Nombre", 
+        "3":"Pasillo",
+        "4":"Producto"
+    },
+    "data":[
+        {
+            "codigo": "0001",
+            "tipo": "Lacteo",
+            "nombre": "Yogurt OIKOS",
+            "pasillo":"5",
+            "thumbnail":
+            {
+                "url": "/static/img/choco.png",
+                "width": "65",
+                "height": "65"
+            }
+        },
+        {
+            "codigo": "0002",
+            "tipo": "Cereal",
+            "nombre": "ChocoKrispies",
+            "pasillo": "4",
+            "thumbnail":{
+                "url": "/static/img/yogurt.png",
+                "width": "65",
+                "height": "65"
+            }
+        },
+        {
+            "codigo": "0003",
+            "tipo": "Enjuague bucal",
+            "nombre": "Listerine",
+            "pasillo": "10",
+            "thumbnail":{
+                "url": "/static/img/listerine.png",
+                "width": "65",
+                "height": "65"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+.titulo{
+    background-color: aqua; 
+    width: 30%; 
+    color: red; 
+    text-transform: uppercase;
+}
+.otraFont{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#elemento1{
+    color: blueviolet;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
